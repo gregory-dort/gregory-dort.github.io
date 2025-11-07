@@ -5,7 +5,7 @@ const Projects = [
     {
         title: 'PraxAssist - Medical Chatbot',
         description: '',
-        imageUrl: '../src/assets/PraxLogin.png',
+        imageUrl: '/PraxLogin.png',
         altText: 'PraxAssist Logo',
         projectUrl: '(Not Currently Live)',
         repoUrl: 'https://github.com/gregory-dort/prax-assist',
@@ -14,7 +14,7 @@ const Projects = [
     {
         title: 'Prep Time Scheduler',
         description: '',
-        imageUrl: '../src/assets/Pasta.jpg',
+        imageUrl: '/Pasta.jpg',
         altText: 'Prep Time Logo',
         projectUrl: '(Not Currently Live)',
         repoUrl: 'https://github.com/gregory-dort/prep-time',
@@ -23,7 +23,7 @@ const Projects = [
     {
         title: 'Financial Budget Tracker',
         description: '',
-        imageUrl: '../src/assets/Money.jpg',
+        imageUrl: '/Money.jpg',
         altText: 'Financial Planner Logo',
         projectUrl: '(Not Currently Live)',
         repoUrl: 'https://github.com/gregory-dort/fin-app',

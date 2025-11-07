@@ -28,27 +28,27 @@ const Hero = () => {
             >
                 <motion.img
                     variants={itemVariants}
-                    src="../assets/GregWC.JPG"
+                    src="/GregWC.jpg"
                     alt="Profile Picture"
-                    className="w-72 h-72 mx-auto mb-4"
+                    className="w-150 h-120 rounded-full mx-auto mb-4"
                 />
                 <motion.h1
                     variants={itemVariants} 
-                    className="text-8xl md:text-9xl text-center font-serif font-light tracking-wider mb-4 text-gray-800"
+                    className="text-4xl md:text-7xl text-center font-serif font-light tracking-wider mb-4 text-gray-800"
                 >
                     Gregory Dort
                 </motion.h1>
                 <motion.h2
                     variants={itemVariants} 
-                    className="text-3xl md:text-4xl text-center font-serif text-cyan-300 mb-8"
+                    className="text-3xl md:text-4xl text-center font-serif text-gray-800 mb-8"
                 >
                     Software Engineer
                 </motion.h2>
                 <motion.p 
                     variants={itemVariants} 
-                    className="text-gray-600 text-center mt-12 text-lg"
+                    className="text-gray-600 text-center mb-8 text-lg"
                 >
-                    A curated exhibit of systems design and creative coding.
+                    Passionate about creating innovative and user-friendly software solutions.
                 </motion.p>
             </motion.div>
         </section>
