@@ -51,7 +51,7 @@ const ProjectCard = ({
                 Link to Github Repository: <FaGithub size={20} />
             </a>
 
-            <div className="flex flex-wrap gap-2 text-xs mt-auto">
+            <div className="flex flex-wrap gap-2 text-xs mt-4">
                 {techStack.map(tech => (
                     <motion.div 
                     key={tech} 
