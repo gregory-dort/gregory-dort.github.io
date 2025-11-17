@@ -16,13 +16,13 @@ const Experience = () => {
 
                 <SectionCard>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24 rounded-2xl">
-                        <div className="lg:border-r lg:pr-8">
-                            <h2 className="text-3xl font-bold mb-8 text-gray-800 text-center border-b pb-2">Education 🎓</h2>
+                        <div className="pr-8">
+                            <h2 className="text-3xl font-serif font-bold mb-8 text-gray-800 text-center border-b pb-2">Education 🎓</h2>
                             <EducationTimeline />
                         </div>
                         
                         <div>
-                            <h2 className="text-3xl font-bold mb-8 text-gray-800 text-center border-b pb-2">Work Experience 💼</h2>
+                            <h2 className="text-3xl font-serif font-bold mb-8 text-gray-800 text-center border-b pb-2">Work Experience 💼</h2>
                             <WorkTimeline />
                         </div>
                     </div>

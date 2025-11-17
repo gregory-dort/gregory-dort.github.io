@@ -27,7 +27,7 @@ const Skills = () => {
                         <h3 className="text-xl items-center font-semibold mb-4 border-b pb-2">{category}</h3>
                         <div className="flex flex-wrap gap-3">
                             {skills.map(skill => (
-                                <span key={skill} className="px-3 py-1 text-sm font-medium text-gray-900 bg-cyan-100 rounded-full transition-colors hover:bg-cyan-300">
+                                <span key={skill} className="px-3 py-1 text-sm font-medium text-gray-900 bg-cyan-100 rounded-full transition-colors hover:bg-cyan-300 ease-in-out duration-500">
                                     {skill}
                                 </span>
                             ))}

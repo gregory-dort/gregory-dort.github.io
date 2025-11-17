@@ -47,7 +47,7 @@ const Hero = () => {
                 </motion.h2>
                 <motion.p 
                     variants={itemVariants} 
-                    className="mb-4 text-gray-800 text-center font-serif text-3xl text-bold"
+                    className="mb-4 text-gray-800 text-center italic font-serif text-3xl text-bold"
                 >
                    Connect with me here!
                 </motion.p>
@@ -59,7 +59,6 @@ const Hero = () => {
                         href="https://github.com/gregory-dort"
                         target="_blank"
                         rel="noopener noreferrer"
-                        variants={itemVariants}
                         className="text-gray-800 hover:text-cyan-300 hover:scale-115 transition duration-500"
                     >
                         <FaGithub size={30} />
@@ -68,7 +67,6 @@ const Hero = () => {
                         href="https://www.linkedin.com/in/gregory-dort-776503218/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        variants={itemVariants}
                         className="text-gray-800 hover:text-cyan-300 hover:scale-115 transition duration-500"
                     >
                         <FaLinkedin size={30} />
@@ -77,7 +75,6 @@ const Hero = () => {
                         href="https://www.instagram.com/gdort07/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        variants={itemVariants}
                         className="text-gray-800 hover:text-cyan-300 hover:scale-115 transition duration-500"
                     >
                         <FaInstagram size={30} />
