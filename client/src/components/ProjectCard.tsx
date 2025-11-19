@@ -39,14 +39,14 @@ const ProjectCard = ({
             <a 
                 href={projectUrl} 
                 target="_blank" 
-                className="text-gray-600 hover:text-cyan-300 transition duration-300 mb-4 text-sm"
+                className="text-gray-600 hover:text-cyan-300 transition duration-500 mb-4 text-sm"
             >
                 Live Demo: {projectUrl}<FaExternalLinkAlt size={15} />
             </a>
             <a
                 href={repoUrl}
                 target="_blank"
-                className="text-gray-600 hover:text-cyan-300 transition duration-300 mb-4 text-sm"
+                className="text-gray-600 hover:text-cyan-300 transition duration-500 mb-4 text-sm"
             >
                 Link to Github Repository: <FaGithub size={20} />
             </a>
