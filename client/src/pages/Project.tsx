@@ -28,6 +28,15 @@ const Projects = [
         projectUrl: '(Not Currently Live)',
         repoUrl: 'https://github.com/gregory-dort/fin-app',
         techStack: ['React', 'FastAPI', 'NodeJS', 'PostgreSQL', 'TailwindCSS', 'Javascript', 'Python']
+    },
+    {
+        title: 'Confluence Streaming',
+        description: '',
+        imageUrl: '/Money.jpg',
+        altText: 'Confluence Streaming Logo',
+        projectUrl: '(Not Currently Live)',
+        repoUrl: 'https://github.com/jpgeib/confluence-streaming',
+        techStack: ['React', 'Javascript']
     }
 ]
 
@@ -37,15 +46,15 @@ const Project = () => {
     };
 
     return (
-        <div id = "project" className = "min-h-[100vh]">
-            <motion.h1 
-                    className="text-6xl font-serif mb-16 text-center"
-                    initial={{ opacity: 0, y: -20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                >
-                    The Project Collection
-                </motion.h1>
+        <div id="project" className="min-h-[100vh]">
+            <motion.h1
+                className="text-6xl font-serif mb-16 text-center"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+            >
+                The Project Collection
+            </motion.h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                 {Projects.map((project, index) => (
                     <motion.div
@@ -55,16 +64,16 @@ const Project = () => {
                         transition={{ duration: 0.5, delay: index * 0.1 }}
                     >
                         <ProjectCard
-                        key={index}
-                        title={project.title}
-                        description={project.description}
-                        imageUrl={project.imageUrl}
-                        altText={project.altText}
-                        projectUrl={project.projectUrl}
-                        repoUrl={project.repoUrl}
-                        techStack={project.techStack}
-                        onSelect={() => handleProjectSelect(project.title)}
-                    />
+                            key={index}
+                            title={project.title}
+                            description={project.description}
+                            imageUrl={project.imageUrl}
+                            altText={project.altText}
+                            projectUrl={project.projectUrl}
+                            repoUrl={project.repoUrl}
+                            techStack={project.techStack}
+                            onSelect={() => handleProjectSelect(project.title)}
+                        />
                     </motion.div>
                 ))}
             </div>
