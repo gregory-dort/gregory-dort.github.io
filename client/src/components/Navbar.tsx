@@ -2,9 +2,7 @@ import {motion} from 'framer-motion';
 
 export interface SectionIDs {
     hero: string;
-    about: string;
     experience: string;
-    contact: string;
     project: string;
 }
 
@@ -34,6 +32,7 @@ const Navbar = ({sectionIds}: NavbarProps) => {
                         src = "/GDLogo.png" 
                         alt = "Logo"
                         className = "w-12 h-12 rounded-full border-2 border-white shadow-sm"
+                        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                     />
                 </a>
                 <motion.div
@@ -59,13 +58,6 @@ const Navbar = ({sectionIds}: NavbarProps) => {
                         whileHover={{ scale: 1.1 }}
                     >
                         My Projects
-                    </motion.button>
-                    <motion.button
-                        onClick={() => scrollToSection(sectionIds.contact)} 
-                        className="hover:text-cyan-100 transition duration-300"
-                        whileHover={{ scale: 1.1 }}
-                    >
-                        Contact Me
                     </motion.button>
                 </motion.div>
             </div>

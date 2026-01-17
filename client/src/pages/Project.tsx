@@ -4,34 +4,34 @@ import { ProjectCard } from '../components';
 const Projects = [
     {
         title: 'PraxAssist - Medical Chatbot',
-        description: '',
+        description: 'Full-stack web application designed to streamline patient intake and prognosis workflows, simulating real clinical use cases',
         imageUrl: '/PraxLogin.png',
         altText: 'PraxAssist Logo',
-        projectUrl: '(Not Currently Live)',
+        projectUrl: '',
         repoUrl: 'https://github.com/gregory-dort/prax-assist',
         techStack: ['React', 'Express', 'NodeJS', 'MongoDB', 'TailwindCSS', 'Javascript', 'Gemini']
     },
     {
         title: 'Forkast',
-        description: '',
+        description: 'Full-stack meal prep scheduling web application, featuring a user-friendly interface, secure authentication, and robust data management to simplify weekly meal planning',
         imageUrl: '/Pasta.jpg',
         altText: 'Prep Time Logo',
-        projectUrl: '(Not Currently Live)',
+        projectUrl: '',
         repoUrl: 'https://github.com/gregory-dort/prep-time',
         techStack: ['React', 'Express', 'NodeJS', 'PostgreSQL', 'TailwindCSS', 'Typescript']
     },
     {
         title: 'Financial Budget Tracker',
-        description: '',
+        description: 'Full-stack financial planning web application that enables users to efficiently track and manage their budgets, expenses, and savings goals through an intuitive interface and robust backend support',
         imageUrl: '/Money.jpg',
         altText: 'Financial Planner Logo',
-        projectUrl: '(Not Currently Live)',
+        projectUrl: '',
         repoUrl: 'https://github.com/gregory-dort/fin-app',
         techStack: ['React', 'FastAPI', 'NodeJS', 'PostgreSQL', 'TailwindCSS', 'Javascript', 'Python']
     },
     {
         title: 'Confluence Streaming',
-        description: '',
+        description: 'Full-stack platform which combines multiple third-party services into a unified interface featuring a custom cable-style tv scheduling engine',
         imageUrl: '/CSLogo.png',
         altText: 'Confluence Streaming Logo',
         projectUrl: 'https://confluence-streaming-108b2e0ec103.herokuapp.com/',

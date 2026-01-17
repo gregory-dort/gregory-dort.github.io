@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 const containerVariants = {
     hidden: { opacity: 0 },
@@ -60,6 +60,8 @@ const Hero = () => {
                             href="https://github.com/gregory-dort"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="View GitHub Profile"
+                            title="View GitHub Profile"
                             className="text-gray-800 hover:text-cyan-300 hover:scale-115 transition duration-500"
                         >
                             <FaGithub size={30} />
@@ -68,6 +70,8 @@ const Hero = () => {
                             href="https://www.linkedin.com/in/gregory-dort-776503218/"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="View LinkedIn Profile"
+                            title="View LinkedIn Profile"
                             className="text-gray-800 hover:text-cyan-300 hover:scale-115 transition duration-500"
                         >
                             <FaLinkedin size={30} />
@@ -76,9 +80,21 @@ const Hero = () => {
                             href="https://www.instagram.com/gdort07/"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="View Instagram Profile"
+                            title="View Instagram Profile"
                             className="text-gray-800 hover:text-cyan-300 hover:scale-115 transition duration-500"
                         >
                             <FaInstagram size={30} />
+                        </motion.a>
+                        <motion.a
+                            href="mailto:gregory.dort@gmail.com?subject=Portfolio Inquiry"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Email Me"
+                            title="Email Me"
+                            className="text-gray-800 hover:text-cyan-300 hover:scale-115 transition duration-500"
+                        >
+                            <FaEnvelope size={30} />
                         </motion.a>
                     </motion.div>
                     <motion.button

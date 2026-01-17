@@ -16,6 +16,9 @@ type ProjectCardProps = {
 const ProjectCard = ({
     title, description, imageUrl, altText, projectUrl, repoUrl, techStack, onSelect
 }: ProjectCardProps) => {
+
+    const hasLiveDemo = projectUrl && !projectUrl.includes('Not Currently Live');
+
     return (
         <motion.div
             whileHover={{ scale: 1.05, boxShadow: "0 10px 20px rgba(0,0,0,0.1)" }}
@@ -35,21 +38,35 @@ const ProjectCard = ({
                 <u>{title}</u>
             </h3>
 
-            <p className="text-gray-600 mb-4 text-sm line-clamp-2">Project Description: {description}</p>
-            <a 
-                href={projectUrl} 
-                target="_blank" 
-                className="text-gray-600 hover:text-cyan-300 transition duration-500 mb-4 text-sm"
-            >
-                Live Demo: {projectUrl}<FaExternalLinkAlt size={15} />
-            </a>
-            <a
-                href={repoUrl}
-                target="_blank"
-                className="text-gray-600 hover:text-cyan-300 transition duration-500 mb-4 text-sm"
-            >
-                Link to Github Repository: <FaGithub size={20} />
-            </a>
+            <p className="text-gray-600 mb-4 text-sm line-clamp-4">Project Description: {description}</p>
+            
+            <div className="flex gap-4 mb-4">
+                {/* GitHub Repo Link */}
+                <a
+                    href={repoUrl}
+                    target="_blank"
+                    aria-label="View GitHub Repository"
+                    title="View Github Repository"
+                    className="text-gray-600 hover:text-cyan-300 transition duration-500"
+                    onClick={(e) => e.stopPropagation()}
+                >
+                    <FaGithub size={24} />
+                </a>
+
+                {/* Live Demo Link - Only show if valid URL exists */}
+                {hasLiveDemo && (
+                    <a
+                        href={projectUrl}
+                        target="_blank"
+                        aria-label="View Live Demo"
+                        title="View Live Demo"
+                        className="text-gray-600 hover:text-cyan-300 transition duration-500"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <FaExternalLinkAlt size={24} />
+                    </a>
+                )}
+            </div>
 
             <div className="flex flex-wrap gap-2 text-xs mt-4">
                 {techStack.map(tech => (
