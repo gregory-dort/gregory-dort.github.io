@@ -12,4 +12,5 @@ export default defineConfig({
       },
     }),
   ],
+  base: '//gregory-dort.github.io/'
 })
