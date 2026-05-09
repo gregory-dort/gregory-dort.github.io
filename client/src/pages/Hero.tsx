@@ -101,7 +101,7 @@ const Hero = () => {
                         variants={itemVariants}
                         whileHover={{ scale: 1.1 }}
                         className="px-4 py-2 bg-cyan-100 border-1 border-gray-200 rounded-md shadow-md text-gray-800 font-serif hover:bg-cyan-300 transition duration-500"
-                        onClick={() => window.open('/Gregory Dort SWE Resume.pdf', '_blank')}
+                        onClick={() => window.open('/Gregory Dort SWE Resume 05_2026.pdf', '_blank')}
                     >
                             View My Resume
                     </motion.button>
