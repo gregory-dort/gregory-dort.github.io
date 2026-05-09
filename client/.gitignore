@@ -25,3 +25,6 @@ yarn-error.log*
 !package.json
 !package-lock.json
 !.vscode/extensions.json
+!tsconfig.json
+!tsconfig.node.json
+!tsconfig.app.json
