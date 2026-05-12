@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 const Skills = () => {
     const skillsData = {
             'Frontend': ['React', 'TailwindCSS', 'Next.js', 'HTML', 'CSS', 'Framer Motion', 'Daisy UI'],
-            'Backend': ['Express.js', 'Node.js', 'Flask', 'FastAPI', 'Gemini API'],
-            'Databases': ['MongoDB', 'PostgreSQL', 'SQL'],
-            'Tools & DevOps': ['Git', 'AWS', 'Lucidchart', 'Postman', 'Github CoPilot', 'Docker', 'Figma'],
+            'Backend': ['Express.js', 'Node.js', 'Flask', 'FastAPI', 'Django', 'Gemini API'],
+            'Databases': ['MongoDB', 'PostgreSQL', 'MySQL', 'SQLite'],
+            'Tools & DevOps': ['Git', 'AWS', 'Azure', 'Lucidchart', 'Postman', 'Github CoPilot', 'Docker', 'Figma'],
             'Programming Languages': ['Javascript', 'Typescript', 'Python', 'C#']
     };
 
