@@ -3,16 +3,7 @@ import { ProjectCard } from '../components';
 
 const Projects = [
     {
-        title: 'PraxAssist - Medical Chatbot',
-        description: 'Full-stack web application designed to streamline patient intake and prognosis workflows, simulating real clinical use cases',
-        imageUrl: '/PraxLogin.png',
-        altText: 'PraxAssist Logo',
-        projectUrl: '',
-        repoUrl: 'https://github.com/gregory-dort/prax-assist',
-        techStack: ['React', 'Express', 'NodeJS', 'MongoDB', 'TailwindCSS', 'Javascript', 'Gemini']
-    },
-    {
-        title: 'Forkast',
+        title: 'Forkkast Foods',
         description: 'Full-stack meal prep scheduling web application, featuring a user-friendly interface, secure authentication, and robust data management to simplify weekly meal planning',
         imageUrl: '/Pasta.jpg',
         altText: 'Prep Time Logo',
@@ -21,13 +12,13 @@ const Projects = [
         techStack: ['React', 'Express', 'NodeJS', 'PostgreSQL', 'TailwindCSS', 'Typescript']
     },
     {
-        title: 'Financial Budget Tracker',
-        description: 'Full-stack financial planning web application that enables users to efficiently track and manage their budgets, expenses, and savings goals through an intuitive interface and robust backend support',
-        imageUrl: '/Money.jpg',
-        altText: 'Financial Planner Logo',
+        title: 'ParkPerfect',
+        description: 'Full-stack platform created as a software solution for university campus parking, featuring a user-friendly interface for real-time parking availability & reservation',
+        imageUrl: '/Park Perfect Logo.png',
+        altText: 'Park Perfect Logo',
         projectUrl: '',
-        repoUrl: 'https://github.com/gregory-dort/fin-app',
-        techStack: ['React', 'FastAPI', 'NodeJS', 'PostgreSQL', 'TailwindCSS', 'Javascript', 'Python']
+        repoUrl: 'https://github.com/kevinjt12/ParkPerfect',
+        techStack: ['React', 'Javascript', 'Python', 'PostgreSQL', 'Django']
     },
     {
         title: 'Confluence Streaming',
@@ -37,6 +28,15 @@ const Projects = [
         projectUrl: 'https://confluence-streaming-108b2e0ec103.herokuapp.com/',
         repoUrl: 'https://github.com/jpgeib/confluence-streaming',
         techStack: ['React', 'Javascript']
+    },
+    {
+        title: 'PraxAssist - Medical Chatbot',
+        description: 'Full-stack web application designed to streamline patient intake and prognosis workflows, simulating real clinical use cases',
+        imageUrl: '/PraxLogin.png',
+        altText: 'PraxAssist Logo',
+        projectUrl: '',
+        repoUrl: 'https://github.com/gregory-dort/prax-assist',
+        techStack: ['React', 'Express', 'NodeJS', 'MongoDB', 'TailwindCSS', 'Javascript', 'Gemini']
     }
 ]
 
