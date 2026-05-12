@@ -7,7 +7,7 @@ const Projects = [
         description: 'Full-stack meal prep scheduling web application, featuring a user-friendly interface, secure authentication, and robust data management to simplify weekly meal planning',
         imageUrl: '/Pasta.jpg',
         altText: 'Prep Time Logo',
-        projectUrl: '',
+        projectUrl: 'https://gregory-dort.github.io/forkkast-foods/',
         repoUrl: 'https://github.com/gregory-dort/prep-time',
         techStack: ['React', 'Express', 'NodeJS', 'PostgreSQL', 'TailwindCSS', 'Typescript']
     },
