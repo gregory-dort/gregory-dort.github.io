@@ -31,7 +31,7 @@ const Hero = () => {
                     variants={itemVariants}
                     src="/GregWC.jpg"
                     alt="Profile Picture"
-                    className="aspect-retro rounded-full object-cover mx-auto mb-4 border-2 border-gray-200 shadow-xl"
+                    className="aspect-video rounded-full object-cover mx-auto mb-6 border-2 border-gray-200 shadow-xl"
                 />
                 <motion.h1
                     variants={itemVariants} 
